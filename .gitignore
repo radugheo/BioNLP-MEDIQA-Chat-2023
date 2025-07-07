@@ -1,0 +1,35 @@
+# Ignore Python cache
+__pycache__/
+*.py[cod]
+
+# Ignore virtual environment
+venv/
+
+# Ignore model checkpoints and outputs
+mediqa_taskA_bart/
+output/
+
+# Ignore Jupyter notebook checkpoints
+*.ipynb_checkpoints
+
+# Ignore VSCode settings
+.vscode/
+
+# Ignore system files
+.DS_Store
+
+# Ignore environment files
+.env
+*.env
+
+# Ignore log files
+*.log
+
+# Ignore large dataset files if needed
+*.h5
+*.ckpt
+
+# Ignore temporary files
+*.tmp
+*.swp
+*~*
