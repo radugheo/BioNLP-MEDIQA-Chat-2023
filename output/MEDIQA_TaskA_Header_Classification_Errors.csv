@@ -1,0 +1,516 @@
+Dialogue,True Header,Predicted Header,Prediction
+"Doctor: Any pain in your muscles? 
+Patient: No, no pain.
+Doctor: How about joint pain? 
+Patient: Um no, I don't feel any joint pain.
+Doctor: Okay, good.
+Doctor: Do you feel any stiffness or weakness in your muscle? 
+Patient: Um, nothing like that.
+Doctor: Do you have any back pain? 
+Patient: No.
+Doctor: Okay.",ros,pastmedicalhx,PASTMEDICALHX: No joint pain.  No stiffness or weakness in the muscle.
+"Doctor: Did he get his B C G vaccine?
+Guest_family: Yes, he did back in the Philippines before starting his elementary school. 
+Doctor: Okay, did you have his immunization records?
+Guest_family_2: Yes, we submitted it at the front desk.
+Doctor: Okay, how long has he been complaining of uneasiness in his stomach?
+Guest_family_2: For a few days.
+Doctor: Any history of liver problems or gallbladder stones?
+Guest_family: No, he had his physical and blood tests and everything came out normal.
+Doctor: Okay, good. Any fever or chills?
+Guest_family: No.
+Doctor: Any history of ulcers?
+Guest_family_2: No.",ros,pastmedicalhx,PASTMEDICALHX: The patient was immunized at the front desk.  He has been complaining of uneasiness in his stomach for a few days.  No history of liver problems or gallbladder stones.  His physical and blood tests came out normal.
+"Doctor: How've you been feeling lately? 
+Patient: Good, I guess. 
+Doctor: How've you been managing your anxiety? 
+Patient: I recently started therapy and I'm scheduled to see a psychiatrist sometime next week. 
+Doctor: Good, good. And any problems with your blood pressure? 
+Patient: I've been taking my blood pressure meds so it's been fine.",assessment,pastmedicalhx,PASTMEDICALHX: Positive for anxiety and blood pressure.
+"Doctor: Hello, how are you today?
+Patient: I am doing well. 
+Doctor: Great. What would you like to bring up today?
+Patient: I have some questions about my liver. 
+Doctor: Alright. Let's start with the basics. Do you drink? Excessive drinking can cause issues with the liver.
+Patient: No, I do not. I take a lot of Tylenol for pain and I am worried it is effecting my liver. 
+Doctor: Okay, that is a common concern. We can address that today. Do you happen to smoke?
+Patient: No, I do not smoke.",genhx,fam/sochx,FAM/SOCHX: The patient is a nonsmoker.  She does not smoke.
+"Doctor: Hello, I will ask you a few questions. 
+Patient: Hm.
+Doctor: Any headaches or breathlessness?
+Patient: Nope.
+Doctor: Any skin problems?
+Patient: Nope, nothing new. 
+Doctor: Any pain in the chest or anywhere else?
+Patient: Nope. 
+Doctor: Any other problem that I should know. 
+Patient: I can't think of any.",ros,pastmedicalhx,"PASTMEDICALHX: No headaches, breathlessness, chest pain, or chest pain."
+"Doctor: Did you ever see that your skin is turning blue or greyish in color?
+Patient: Not that I notice. 
+Doctor: Any swelling like there is water filled inside? 
+Patient: Nope.
+Doctor: Have you ever noticed any kind of swelling in your fingers or toes?
+Patient: No.",exam,pastmedicalhx,PASTMEDICALHX: No swelling.
+"Patient: I am always tired, I don't know what to do.
+Doctor: Yeah, your fatigue can be due to so many reasons. You have many underlying conditions. You have hypertension, high cholesterol, and osteoarthritis. All this can add up and lead to fatigue. I think you need to really take care of your health.",assessment,fam/sochx,FAM/SOCHX: The patient is tired.
+"Doctor: Hello! How are you doing today? 
+Patient: Hi! I am stuck in here, so I am not doing great. 
+Doctor: How long have your legs been swollen like this? 
+Patient: They swell up like this from time to time but it has been happening for a long time. I also can't feel my toes. 
+Doctor: How long has the numbness of your toes been going on? 
+Patient: A long time. 
+Doctor: Are you able to get up and move around?
+Patient: I can't walk because of my weight. It is too much for me. When I try to get up, I get short of breath. I have C O P D. I can't do much but sit here. I am in a lot of pain all the time. 
+Doctor: When you get up and try to walk around, do you experience any chest pain or visual problems?
+Patient: No. I just feel out of breath.  
+Doctor: Do you take anything for your pain? 
+Patient: I take OxyContin for my back pain. 
+Doctor: Do you ever experience any constipation, diarrhea, abdominal pain, nausea or vomiting? 
+Patient: No. I have these sore on my legs, that ooze. 
+Doctor: Okay. Let me look.",ros,genhx,"GENHX: The patient is a 32-year-old female who comes in here complaining of swollen legs and numbness of the toes for a long time.  The patient states that she is unable to get up and move around because of her weight.  She has chronic obstructive pulmonary disease (CCD).  She denies any chest pain, nausea, vomiting, constipation, diarrhea, abdominal pain, or nausea."
+"Guest_clinician: Hello, my name is Mary. I will ask you a few questions about your medical and family history and then Doctor Smith will come and check you. Okay?
+Patient: Okay. 
+Guest_clinician: Do you have any other previously diagnosed medical issues?
+Patient: I have sinus. I also had a stroke around two years ago.
+Guest_clinician: Do you smoke or drink?
+Patient: Nope, never did any of those.
+Guest_clinician: Do you have any kind of allergies?
+Patient: No, no known allergies.
+Guest_clinician: Thank you for answering all my questions, I will let Doctor Smith know that you are ready.",allergy,pastmedicalhx,PASTMEDICALHX: She has sinusitis and a stroke.  She has no known allergies.
+"Doctor: Do you know what foods have a high level of salt?
+Patient: Do you mean like chips and junk food?
+Doctor: Yes mostly. And pickles.. I want you to avoid them.
+Patient: Okay. Why?
+Doctor: Because it is harmful for your current condition. 
+Patient: Okay I will cut it.
+Doctor: Yes, so follow a low salt diet.
+Patient: Okay.",plan,fam/sochx,FAM/SOCHX: She is a nonsmoker.  She avoids chips and junk food.
+"Doctor: Hello, sir. Welcome back. Looks like we are going to revaluate your heart issues. You have a history of ischemic cardiac disease, correct? Can you also state your age?
+Patient: Sixty eight. Yes. I saw doctor X Y Z in February two thousand four and he made me walk on a treadmill for eight minutes. Do you have the results from that?
+Doctor: I do. The scan showed some wall scarring but also that the amount of blood leaving your heart per contraction was normal. Do you experience any chest pain, palpitations, difficulty sleeping at night, leg or arm swelling, or shortness of breath while lying flat?
+Patient: I do not have any issues like that.",genhx,pastmedicalhx,"PASTMEDICALHX: The patient is a 64-year-old male who was seen by Dr. XYZ in February 2004. The scan showed some wall scarring but also that the amount of blood leaving your heart per contraction was normal. No chest pain, palpitations, difficulty sleeping at night, leg or arm swelling, or shortness of breath while lying flat."
+"Doctor: Any nausea, vomiting diarrhea, or fever?
+Patient: Yes, all of the above. 
+Doctor: Okay.",cc,allergy,"ALLERGY: No nausea, vomiting, or fever."
+"Doctor: What type of cancer again? 
+Patient: I had prostate cancer.
+Doctor: Did it travel anywhere in your body?
+Patient: Yes, it was metastatic.",pastmedicalhx,pastsurgical,PASTSURGICAL: Prostate cancer.
+"Doctor: I spoke with Poison Control regarding the possible ingestion of the liquid. They let me know that it is actually a relatively small amount and is likely to be a nontoxic ingestion of the liquid, if she did end up ingesting it. It is not likely to be the case as she is behaving as if she did not ingest any of the liquid.
+Guest_family: Thank god! Thank you.",edcourse,pastmedicalhx,PASTMEDICALHX: Unknown.
+"Doctor: Hello, how are you doing today? Before we get started, I am going to do a basic review of your medical and social history. 
+Patient: Sounds good. Nothing has changed from last visit. 
+Doctor: On your chart we have that you are a non smoker, non drinker, and do not use drugs. We also have written that you do not have any past surgeries or medical conditions. Does that check out?
+Patient: Yes. That's all the same as last time.",other_history,pastmedicalhx,"PASTMEDICALHX: The patient is a non smoker, non drinker, and does not have any past surgeries or medical conditions."
+"Doctor: So I talked to Doctor X about your problems.
+Patient: And?
+Doctor: And he said your recent intestine infction is resolved. Which is C Diff colitis. You saw him two weeks back right?
+Patient: Oh Thank God! Yes thanks, recently i saw him.
+Doctor: Yeah.
+Patient: Ok alright. 
+Doctor: And we have Hypertension and high Cholesterol as well which we talked about.
+Patient: Thanks doc.",pastmedicalhx,diagnosis,DIAGNOSIS: C Diff colitis.  Hypertension and high Cholesterol.
+"Guest_clinician: Is there any notable intra abdominal pathology? 
+Doctor: None whatsoever. 
+Guest_clinician: Well, that's good news.",assessment,pastmedicalhx,PASTMEDICALHX: None.
+"Doctor: You were placed on nasogastric tube for decompression, right? 
+Patient: Yes.
+Doctor: And how do you feel after that?
+Patient: I am feeling bit better.",genhx,cc,CC: nasogastric tube decompression.
+"Doctor: Any medical problems? 
+Patient: Yeah, I've been suffering from congestion for a few years now.
+Doctor: Have you seen an ENT for this? 
+Patient: I did a year or so ago. They think it could be due to enlarged adenoids or just my anatomy.  
+Doctor: Do you have plans to see the ENT in the near future? 
+Patient: No, not as of right now. 
+Doctor: If it's causing you discomfort, then I recommend scheduling another follow-up visit. Is there anything else that's bothering you today? 
+Patient: Um my toenail has been bothering me a lot. 
+Doctor: Mind if I take a look?  
+Patient: I don't mind. 
+Doctor: It looks like you have an ingrown nail. It seems to be improving on its own.",assessment,pastmedicalhx,PASTMEDICALHX: The patient states that she has been complaining of congestion for a few years now.  She has had an ingrown nail.  It seems to be improving on its own.
+"Doctor: I hear she hasn't been doing so well. 
+Guest_family: My poor two-month-old baby girl has been congested for a whole week. I'm so worried about her. 
+Doctor: I completely understand. It's never easy to see your baby sick. Have you taken her temperature recently? 
+Guest_family: Yes, I've been using an anal thermometer. She's been running a fever for the past two days. 
+Doctor: I'm glad you brought her in today. I'll go ahead and take her temperature again. Is she experiencing any other symptoms, such as difficulty breathing or wheezing at all? 
+Guest_family: Not that we've noticed. 
+Doctor: Is she taking down milk? 
+Guest_family: Barely. Not as much as she used to the week before she started to feel bad. 
+Doctor: How often have you been changing her diapers? 
+Guest_family: Hm three or four times. I should've kept better track.",cc,genhx,"GENHX: The patient is a 2-month-old girl who has been congested for a whole week.  She has not been taking her temperature for the past two days.  We have been using an anal thermometer and she has been running a fever.  No other symptoms, such as difficulty breathing or wheezing at all."
+"Doctor: Have you been checking your blood sugar regularly? 
+Patient: Yes, I check it twice a day and I make sure to record the readings each time. 
+Doctor: That's great to hear. Do you mind if I take a look at the readings you brought with you today? 
+Patient: No, it's not a problem. Here, let me get my bag. 
+Doctor: Have you been experiencing any dizziness, excessive urination, fatigue, weight loss, or any other symptoms? 
+Patient: No. 
+Doctor: I have a copy of your blood work right here and it looks like your cholesterol is still pretty high. I'd like you to continue taking the cholesterol medication I prescribed and monitoring your cholesterol intake. 
+Patient: I need to do a better job of watching my cholesterol. 
+Doctor: For this reason, I'd like to schedule another follow up appointment and get you in in a few weeks after another blood draw. 
+Patient: I'll make an appointment today before I leave. 
+Doctor: Great, good. And how are your sinus symptoms since starting the Z Pak? 
+Patient: Much better. I feel almost as good as new. 
+Doctor: Wonderful. Okay then. Let me have a look at your sinuses and you'll be on your way.",assessment,genhx,"GENHX: The patient has been taking her blood sugar twice a day and I make sure to record the readings each time.  She has not had any dizziness, fatigue, weight loss, or other symptoms.  Her cholesterol is still pretty high.  I would like her to continue taking the cholesterol medication I prescribed and monitoring her cholesterol intake."
+"Doctor: What brings you into the office today? 
+Patient: I have been having some stomach problems. 
+Doctor: What has been going on with your stomach? What are your symptoms?
+Patient: I have been having diarrhea. 
+Doctor: When did the diarrhea start? 
+Patient: Several weeks ago. 
+Doctor: How many times of day do you have diarrhea? 
+Patient: About five to six times a day.",ros,genhx,GENHX: The patient presents to the office complaining of abdominal pain and diarrhea.  The patient states that she has been having diarrhea several weeks ago.  She states that the diarrhea has been approximately five to six times a day.
+"Doctor: Any problems with your eyesight? Like blur or double vision?
+Patient: Um, no.
+Doctor: Any partial loss of vision or blind spot?
+Patient: Um, no.
+Doctor: So, no loss vision, right?
+Patient: Right.",ros,diagnosis,DIAGNOSIS: No loss of vision or blind spot.
+"Doctor: What brings you into the office today?  
+Patient: I have been feeling strange lately.  
+Doctor: Strange, in what way?  
+Patient: Well, the other day I was driving and suddenly, I didn't know where I was or where I was driving to.    
+Doctor: That must have been very scary for you. How long did you feel disoriented?  
+Patient: It seemed to last about ten or fifteen minutes.  
+Doctor: Has anything like this happened before?  
+Patient: It has happened two times before this, but I was not driving.  
+Doctor: I would like to send you to a specialist to get some cognitive tests done.   
+Patient: Okay.",cc,fam/sochx,"FAM/SOCHX: The patient states that she has been having some disorientation lately.  She states that the other day she was driving and suddenly, she did not know where she was.  It seemed to last about 10-15 minutes."
+"Doctor: I'm going to run through a list of symptoms and if you're experiencing one or more of these, please let me know. 
+Patient: Okay. 
+Doctor: You had previously mentioned that you sometimes experience an overactive bladder. Are you having any pain with urination or other urinary symptoms along with it? 
+Patient: No. Just occasionally, when I am really stressed, I start having trouble controlling my bladder.
+Doctor: How about abdominal pain, excessive thirst or eating?
+Patient: No. 
+Doctor: And no constipation, diarrhea, or heartburn? 
+Patient: No. 
+Doctor: How about chest pain or tightness, shortness of breath, headaches, or fever? 
+Patient: No. 
+Doctor: Any problems with your skin, muscles, or joints? 
+Patient: No. 
+Doctor: I see. I'd like to order an ultrasound of your kidneys and run a urine test here in our lab.",ros,pastmedicalhx,"PASTMEDICALHX: The patient states that she occasionally experiences overactive bladder.  She does not have any pain with urination or other urinary symptoms.  Occasionally, when she is stressed, she has trouble controlling her bladder."
+"Doctor: Anyone have asthma at home?
+Patient: Yes, my mother and her two sisters have long term asthma.
+Doctor: Okay.
+Patient: Yes.
+Doctor: Any other diseases like kidney problems?
+Patient: No kidney problems.
+Doctor: Any rheumatological disorders?
+Patient: Oh, no, no. Nothing like that.",fam/sochx,pastmedicalhx,PASTMEDICALHX: She has asthma at home.  She has two sisters with long-term asthma.  No rheumatological disorders.
+"Doctor: Your E K G looks good. Rhythm is normal. Your axis is somewhat leftward, but this is a normal variation. It is not an abnormal finding and in most cases does not need any further treatment.
+Patient: How about blood tests?
+Doctor: Your CBC and BMP came back normal and your cardiac enzymes were negative x1.
+Doctor: Do you know what they are?
+Patient: Yes, I can understand.",labs,pastmedicalhx,"PASTMEDICALHX: EKG looks good. Rhythm is normal. GKG is somewhat leftward, but this is a normal variation. It is not an abnormal finding and in most cases does not need any further treatment."
+"Doctor: How're you feeling today? 
+Patient: Honestly, I've had way better days. 
+Doctor: I'm sorry. Why is that? 
+Patient: I've been getting short of breath a lot more than I'm used to. 
+Doctor: How long has this been going on? 
+Patient: Past three days. 
+Doctor: Are you experiencing any leg pain or swelling? 
+Patient: Eh no.  
+Doctor: How about chest pain or anything like it? 
+Patient: No to that either. 
+Doctor: I must say, this is concerning. I'd like you to get a C T scan of your chest so we can see what's going on. For now, your pulse ox is in the high nineties so you won't be needing supplemental oxygen at this moment in time. Do you notice the shortness of breath getting worse when you're moving around? 
+Patient: Yeah, mostly when I exert myself. 
+Doctor: Okay, I see. And the frequency by which your're short of breath is new for you, correct? 
+Patient: Yes. 
+Doctor: Do you happen to have a history of asthma? 
+Patient: No asthma.",cc,genhx,"GENHX: This is a 3-day-old female who comes in today complaining of shortness of breath.  She states that she has had better days over the past three days.  No leg pain, swelling, or leg pain.  Her pulse ox is in the high nineties so she won't need supplemental oxygen at this time in time.  There is no history of asthma."
+"Doctor: Hi, how are you?
+Patient: I am well. I am feeling a much better.
+Doctor: That's good. I gave you cycle seven ifosphomide, mesna and VP 16 chemotherapy.
+Patient: Okay I don't understand what that means.",procedures,pastmedicalhx,"PASTMEDICALHX: The patient was given cycle 7 ifosphomide, mesna and VP 16 chemotherapy."
+"Doctor: You have hypothyroidism, correct? 
+Patient: Yes. 
+Doctor: Have you been watching your blood sugar? 
+Patient: Yes. It's been fine lately so has my anemia. 
+Doctor: Good to hear. I see here you were diagnosed with I B S and bowel abnormalities a few years ago. 
+Patient: My most recent bouts of diarrhea were likely due to C diff and they seem to have gotten better. 
+Doctor: I see my nurse didn't have the chance to go through the review of systems with you, so I will go through them now.
+Patient: Okay.
+Doctor: Any fever, chills, or night sweats?
+Patient: Nope.
+Doctor: Any unusual weight gain or loss?
+Patient: No, my weight has been stable.
+Doctor: Any visual changes, in one or both eyes?
+Patient: No. 
+Doctor: Any hearing changes or ear problems?
+Patient: Nope.
+Doctor: I know I already asked you about your hypothyroidism, but I wanted to check if you are having any excessive thirst or frequent urination?
+Patient: Nope, none of that.
+Doctor: Any shortness of breath, cough, coughing up excessive mucus or blood, or breathing problems?
+Patient: Thankfully none of that.
+Doctor: Okay, how about any kind of chest pain or discomfort, trouble breathing at night or when lying down, palpitations or heart attacks?
+Patient: No, none of that.
+Doctor: Any urinary problems, anything with your kidneys?
+Patient: No. 
+Doctor: Any abnormal vaginal bleeding or discharge?
+Patient: Nope.
+Doctor: Good, I know you have had some anemia in the past, any new problems with that? Any blackouts, convulsions, seizures, paralysis, strokes, or headaches?
+Patient: No, I have not had anemic labs in a while. And, no to any of those things you just listed as well.
+Doctor: Alright, good. That is it for all of my symtom questions. Thank you for bearing with me for that.
+Patient: No problem, I am just glad to not be experiencing a lot of those.",ros,genhx,"GENHX: The patient has hypothyroidism and anemia.  She was diagnosed with IBS and bowel abnormalities a few years ago.  Her most recent bouts of diarrhea were likely due to C diff and they seem to have gotten better.  No fever, chills, night sweats, or night sweats."
+"Guest_clinician: Did you see that patient today? His general appearance looked good.
+Doctor: Yeah, the patient was well developed and well nourished.
+Guest_clinician: Was he in any acute distress?
+Doctor: No.",exam,pastmedicalhx,PASTMEDICALHX: The patient was well developed and well nourished.
+"Doctor: Hi, how are you? 
+Patient: I am okay, but I have this pain on my right side of the chest which is troubling me. 
+Doctor: Where exactly do you have pain?
+Patient: Ah, um it's kind of on the upper right side of my chest.
+Doctor: Hm, do you have any nausea vomiting? 
+Patient: Yeah, I have nausea sometimes but no vomiting.
+Doctor: How is your appetite are you having a proper diet?
+Patient: No not really. I don't feel hungry that much, my appetite has reduced a lot.
+Doctor: Okay.
+Doctor: Any fever, diarrhea headache or joint pain? 
+Patient: No sir.
+Doctor: Did you ever have any seizure or have loss consciousness or any stroke like symptoms?
+Patient: Nothing of that sort.
+Doctor: So, I just reviewed your past medical and surgical history. Tell me something, does anyone else in your family have this kind of chest pain? 
+Patient: No, it's just me!
+Doctor: Hm, okay.",ros,fam/sochx,"FAM/SOCHX: The patient states that she has a right-sided chest pain.  She states that it is on the upper right side of the chest.  No nausea, vomiting, or diarrhea.  There is no fever, diarrhea, or joint pain in the patient.  The patient denies any seizure, loss of consciousness, stroke, or stroke."
+"Doctor: That is just normal male breast tissue, nothing to worry about.
+Patient: Oh okay.",exam,pastmedicalhx,PASTMEDICALHX: Normal male breast tissue.
+"Doctor: You look good? What are you eating these days? 
+Patient: I've just started a protein rich diet. I am taking whey protein and have added a lot of greens as well. 
+Doctor: You look great! Keep doing whatever you're doing. It's working for you.",exam,pastmedicalhx,PASTMEDICALHX: The patient is on a protein rich diet.  She is taking whey protein and have added a lot of greens as well.
+"Doctor: I see here that you have a history of frequent U T I's. Are you currently experiencing any urinary symptoms? 
+Patient: Nope. I've been drinking a lot more water and taking preventative measures to reduce my chances of getting another one anytime soon. I'm being even more conscious of it since I'm now bed bound.
+Doctor: That's good news. Are you having other symptoms, such as fever or chills? 
+Patient: Nope.
+Doctor: How has your weight been? Has it been pretty stable since you have been bed bound?
+Patient: Weight is stable. 
+Doctor: Okay, now for the routine stuff. Any coughing, chest congestion or chest pain?
+Patient: No. 
+Doctor: What abut shortness of breath? Any type of bleeding in your feces or rectum?
+Patient: Nothing. 
+Doctor: Great to hear. Any constipation, stomach pain, nausea, or vomiting?
+Patient: Nothing as of late.",ros,pastmedicalhx,"PASTMEDICALHX: No history of urinary tract infection, fever, chills, or dysuria.  She has been drinking a lot more water and taking preventative measures to reduce her chances of getting another one anytime soon.  Her weight has been stable since she has been bed bound."
+"Guest_clinician: Is the patient restrained? 
+Doctor: No, but she does have a palm protector in her right hand.",edcourse,pastsurgical,PASTSURGICAL: None.
+"Guest_clinician: I took her R O S, and everything looks normal except for mild soreness in her arm due to the vaccine.
+Patient: In my left arm.
+Doctor: Okay, thank you for updating the notes.
+Guest_clinician: Sure, no problem.",ros,cc,CC: Right arm soreness.
+"Doctor: How're you feeling after the Prednisone? 
+Patient: Much better than before. It looks like the redness and swelling has calmed down a bit. 
+Doctor: This was your first wasp sting, correct? 
+Patient: Yeah, and I really hope it's my last. It definitely did a number on me.",assessment,pastmedicalhx,PASTMEDICALHX: The patient is feeling much better after the Prednisone.  The redness and swelling has calmed down a bit.
+"Doctor: Do you have any history of psychiatric disorders, sir?
+Patient: What, like depression?
+Doctor: Well, it could be anything like depression, or mood disorders. Does anything like that ring any bells? 
+Patient: Oh, no, I don't have anything like that.",genhx,pastmedicalhx,PASTMEDICALHX: Noncontributory.
+"Doctor: Have you had any G I issues? 
+Patient: Nope. 
+Doctor: So no symptoms other than what we discussed earlier?
+Patient: You got it.
+Doctor: Looks like you're in good shape. We're almost done. I just need to confirm a few more things. Seems like they all will be negative. 
+Patient: No worries. 
+Doctor: Any heart issues or genital or urinary tract issues?
+Patient: None that I have discovered. 
+Doctor: Great. And lastly, how is your range of motion?
+Patient: Normal I think. I want to be more flexible, but nothing seems out of the ordinary. Like, I don't have any muscle or movement issues.",ros,pastmedicalhx,PASTMEDICALHX: Otherwise unremarkable.
+"Doctor: Have you ever been hospitalized for anything? 
+Patient: No, thankfully. I was close to being hospitalized once, but it never actually happened. 
+Doctor: And when was this? 
+Patient: About two years ago. I got into a pretty brutal skateboarding accident.  
+Doctor: Oh gosh. How long have you been skateboarding? 
+Patient: Since I was a kid. Bout eight or nine years old. 
+Doctor: Do you skate in your neighborhood or at a skatepark? 
+Patient: Skatepark. I'll go with my friends every now and again.  
+Doctor: Nice. I've never been skateboarding, but I've always been in awe of kids like you who know how to do cool skateboard tricks.",other_history,fam/sochx,FAM/SOCHX: He has been skateboarding since he was 8 or 9 years old.  He has never been hospitalized for any type of injury.
+"Doctor: How're you feeling? 
+Patient: My head still hurts. 
+Doctor: How often do you get migraine headaches? 
+Patient: Once in a while. I think it's worse when the weather changes. 
+Doctor: I understand. Do you see a neurologist? 
+Patient: Not at this moment, but I should find one. 
+Doctor: I can write you a referral because it's always best to get a second opinion or a brain scan. 
+Patient: Gotcha. I'll plan to make an appointment in the near future.",assessment,pastmedicalhx,PASTMEDICALHX: Migraine headaches.
+"Doctor: So, tell me any chest pain or shortness of breath?
+Patient: No, none of those.
+Doctor: Any bleeding disorder, prolonged bleeding or anything?
+Patient: No.
+Doctor: And I already have G I and urinary tract reports. Anything else?
+Patient: No, I don't think so.",ros,pastmedicalhx,PASTMEDICALHX: Otherwise negative.
+"Doctor: Do you have any personal history of heart disease or diabetes? 
+Patient: No, but I do have high blood pressure.  
+Doctor: Any family history of heart disease, diabetes or hypertension? 
+Patient: No, none that I know of. 
+Doctor: Your bloodwork came back with borderline elevated cholesterol levels. I would like to just keep any eye on this for now. Let's have you come back in one month. We will check your cholesterol levels again.",genhx,pastmedicalhx,PASTMEDICALHX: Noncontributory.
+"Doctor: Are you experiencing any symptoms? 
+Patient: Nope.",ros,pastmedicalhx,PASTMEDICALHX: None.
+"Doctor: Hey what you got there?
+Patient: I got this boil type of situation going on on my butt.
+Doctor: Oops!
+Patient: I know.
+.",cc,pastmedicalhx,PASTMEDICALHX: Significant for a boil.
+"Doctor: Hello. It has been a long time. Nice to see you again. How can I help?
+Patient: I am here for a physical. Nothing new and nothing has changed, but I think it's good to be seen once a year. 
+Doctor: Great! You are absolutely right. Prevention is key. Are your social history and medical conditions the same as last visit? Here, you can look at the chart.
+Patient: Yeah, that looks right. It's all the same.",other_history,pastmedicalhx,PASTMEDICALHX: Otherwise unchanged.
+"Doctor: How's she doing today? 
+Guest_family: She's been blowing up green snot and complaing of ear pain. 
+Doctor: Both ears? 
+Guest_family: Both the right and left. 
+Doctor: How long has she been bringing up green snot? 
+Guest_family: Maybe six or so days? 
+Doctor: Let's see. It looks like she may have sinusitis. After checking both ears, I noticed fluid buildup in the right middle ear. I'll go ahead and prescribe her some antibiotics and hopefully she'll be as good as new in a few days. I'd like her to come back for a follow up to make sure all the fluid in her ear is gone.",assessment,genhx,GENHX: The patient has been complaining of green snot and complaing of ear pain.  She has had a long history of sinusitis.  The patient also has had some fluid buildup in the right middle ear.
+"Doctor: So what brings you in today? 
+Patient: Um I think I'm due for a checkup. While I'm here, I also wanted to figure out why I'm having so much joint pain all over. 
+Doctor: When did you first notice the pain? 
+Patient: It's been a couple weeks now. I thought it'd go away on its own. I've taken Advil for it, which helps a tiny bit.",cc,pastmedicalhx,PASTMEDICALHX: Significant for joint pain.
+"Doctor: Have you ever taken any prescribed drug for your headaches. 
+Patient: No. 
+Doctor: What do you take when you get headaches. 
+Patient: I try not to take to much medication but when they get really bad, I take Excedrin or ibuprofen. 
+Doctor: So only over the counter medications? Do they work in providing you relief?
+Patient: Yes, I have been using over the counter medications and they have been no help with my headaches . 
+Doctor: Okay.",genhx,medications,MEDICATIONS: None.
+"Doctor: Is this your first pregnancy? 
+Patient: Yes. I'm so excited for the baby to arrive!",gynhx,pastmedicalhx,PASTMEDICALHX: The patient is a first-time mother.
+"Doctor: Are you still take Prevacid? 
+Patient: No. I had to stop taking it.  It gave me diarrhea.",pastmedicalhx,medications,MEDICATIONS: Prevacid.
+"Guest_family: They just changed his P bag, that's why there is no pee in it.
+Doctor: Okay. Yes, it looks empty. I think they did a straight cath.
+Guest_family: Yeah, and they took out the urine to send it to the lab.
+Doctor: Okay. Yes, there were no leukocyte seen. That means no infection.
+Guest_family: But they said there was blood?
+Doctor: Yes, during catheterization but the urine is normal.
+Guest_family: Okay.
+Doctor: In your x ray there was stool seen in the colon.
+Guest_family: Okay.
+Guest_family_2: He is fine?
+Doctor: Yeah, he is fine. I can see that he is very active. Jumping up and down.
+Doctor: Hi champ!
+Patient: Hi.",edcourse,pastmedicalhx,PASTMEDICALHX: There is no pee in his P bag.  He has had a straight cath.  There was no leukocyte seen during catheterization but the urine is normal.  No stool seen in the colon.
+"Guest_clinician: How's the patient doing? 
+Doctor: In stable condition, but I'm not yet able to obtain a history from them. 
+Guest_clinician: Please page me when they're awake and able to answer questions. I'll be on the eighth floor if you need me. 
+Doctor: Will do.",ros,pastmedicalhx,PASTMEDICALHX: In stable condition.
+"Patient: I just had few questions. Can you tell me about my diagnosis?
+Doctor: Sure. It's called Serotonin syndrome, ma'am. After careful evaluation of your labs, we found out that your white count and C P K was high, and those abnormalities lined up with serotonin syndrome. What are you experiencing right now?
+Patient: I have been very restless and easily agitated, I have diarrhea. But no fever or shakiness.
+Doctor: These can match serotonin syndrome as well. You deny any fever, tremor or hypperflexia so we will give you some IV fluids and I will check on you in an hour or so.
+Patient: Okay. 
+Doctor: Looks like your C P K counts improved with I V fluids and after discontinuing Prozac.
+Patient: How are the counts now? Are they normal? Because I feel normal.
+Doctor: Yes, your C P K and white blood cell counts have come back down. Almost normal now.
+Patient: My husband left me two weeks ago. My panic attacks are increasing day by day.
+Doctor: Okay, I see that you have a history of panic attacks and you do have depression and anxiety, is that correct? Last Friday, I talked to psychiatrist about your issues, and he recommended Cymbalta as an alternative to Prozac. 
+Patient: Yes, I stopped taking Prozac, and I am going to see him on Monday or Tuesday. I have a counselor too.
+Patient: I do think it will be difficult to go home alone but my daughter is coming to visit me in two weeks.
+Doctor: Oh wow.
+Patient: Yeah.
+Doctor: That's nice. Do you have someone who can drop you home and help you?
+Patient: Yes, I have a friend who does that, I am staying with her for next three days.
+Doctor: Okay that sounds good. Just continue with your medications for high blood pressure and diabetes as well. So, we treated your imbalance issues and gave you IV fluids, you do not have any more diarrhea, right?
+Patient: Yes, that's right.",edcourse,genhx,"GENHX: This is a 22-year-old female with a history of depression and anxiety.  She has been diagnosed with Serotonin syndrome, which she denies any fever, tremor or hypperflexia so we will give her some IV fluids and I will check on her in an hour or so.  Her CPDK and white blood cell counts have improved with IV fluids and after discontinuing Prozac.  The counts have come back down.  They are almost normal now.  There is no fever or tremor.  No hypercholesterolemia.  Anxiety is increasing day by"
+"Doctor: We have placed this nasogastric tube for decompression.
+Guest_family: Okay.
+Doctor: How are you feeling now?
+Patient: Um.
+Guest_family: She said that she feels better now.",genhx,cc,CC: Stable nasogastric tube for decompression.
+"Doctor: We are following up with you for your prostate cancer which has metastasized to your bladder and in several locations throughout your body including the spine and shoulder.
+Patient: Yes, you remember I had blood in my urine in the past, but I think it is coming back. I started noticing that from yesterday, and today I saw a lot of blood with very little urine.
+Doctor: Oh okay, we will have to evaluate that then. Let me ask you few other questions to get this out of the way. How about your back pain, how's it? Also any incontinence?
+Patient:  Okay sure. No, there is no change in my chronic lower back pain, and no, no incontinence, urinary or stool. 
+Doctor: All right. How about fever, belly pain, nausea or vomiting?
+Patient: No to everything.
+Doctor: Are you able to pee noramally and pass urine, you aren't retaining? How about blood in stools?
+Patient: Yes, I am passing everything well. No blood in stools.
+Doctor: Okay. Can you tell me if you have finished your chemo?
+Patient: Yes, I have already completed chemo. Now they started me with radiation therapy, but it is only targeted to the bones. They told me I will feel well as in there won't be any pain. It's not supposed to treat or cure the cancer, but just to make me comfortable.
+Doctor: Yes, we are looking at that at this point.
+Patient: Okay. 
+Doctor: Do you have any hospice care facility listed?
+Patient:  No, I haven't looked at it yet, but I would love to look at hospice facilities.
+Doctor: That treatment management we are focusing on-
+Patient: I know only comfort ha!",genhx,pastmedicalhx,"PASTMEDICALHX: The patient has prostate cancer metastasized to the bladder and in several locations throughout the body including the spine and shoulder.  She has had a lot of blood in her urine in the past, but today she has noticed a lot more blood with very little urine.  Her back pain is not as bad as it has been.  There is no change in her chronic lower back pain, but she is not having any incontinence, urinary or stool.  No fever, belly pain, nausea or vomiting."
+"Doctor: Looks like he has a foreign body in his left eye. 
+Guest_family: Does he need to see an eye doctor after this?",diagnosis,pastmedicalhx,PASTMEDICALHX: Foreign body in left eye.
+"Doctor: His fever is running very high, I think he is having a febrile seizure.
+Guest_clinician: Yeah, I think so too.
+Guest_family: Is he going to be okay? 
+Doctor: Ma'am, let us have a look.",assessment,cc,CC: febrile seizure.
+"Doctor: Hm so it looks like you saw your cardiologist last week, correct? 
+Patient: Yeah. 
+Doctor: How did your visit go? 
+Patient: It went well. I was in for a follow up. I underwent bypass surgery a few months ago so she wanted to see how I was doing. 
+Doctor: I'm glad to hear that it went well. Does heart disease run in your family? 
+Patient: I'm the only one in my family that I know of who suffers from heart disease. 
+Doctor: I see. I asked the tech to do a quick E K G on you and it looks normal so that's good news.",cc,fam/sochx,FAM/SOCHX: The patient was seen by her cardiologist last week.  She underwent bypass surgery a few months ago.  Her family has a history of heart disease in her family.
+"Patient: So, as you remember I was working with a patient and I accidently jammed that needle inside me.   
+Patient: I am coming for regular screening.
+Doctor: Yes, thank you for that, sir. Did they screen patient?
+Patient: Yes, he got negative H I V but positive hep C, they said he is a carrier only, never will show disease symptoms. 
+Doctor: Okay.
+Patient: I am scared. 
+Doctor: Don't worry, we will do what we can okay. Firstly, let me check if they did some hepatitis B shots on you. Okay looks like you had three shots of hep B and Tetanus is up to date with all others. Antibodies are showing, which is good. 
+Patient: They did the tests on February seven two thousand and five. Have you seen my liver test results? And maybe some other?
+Doctor: Yes, I can see that your liver function test were normal at eighteen and hepatitis C and H I V, both were negative. We took these labs on February seventh. You do not have any local signs of infection, right?  Except acute intestinal problem?
+Patient: Nothing local, but I do have intestinal squeakiness and vomiting.
+Doctor: Let me look at your exam.
+Patient: Okay.
+Doctor: Abdomen is fine, no fever and no swellings. That's great.
+Patient: Okay.",assessment,pastmedicalhx,"PASTMEDICALHX: Negative H1V but positive hep C.  He is a carrier only, never will show disease symptoms.  His liver function test was normal at 18 and hepatitis C and H IV were negative.  The labs were drawn on 02/07/05.  There are no local signs of infection.  Abdomen is normal, no fever, no swellings, no swelling, no hemoptysis, no dysuria."
+"Doctor: How are you feeling?
+Patient: I am feeling very weak and shaky.
+Doctor: Oh I am so sorry.
+Patient: It's okay.",cc,fam/sochx,FAM/SOCHX: The patient is weak and shaky.
+"Doctor: So, I am looking at your x ray here.
+Patient: Oh yes please tell me if everything is fine.
+Doctor: Yes so, we have a two view of you shoulder. I am not seeing any bone abnormalities or any degenerative changes, so no wear and tear.
+Patient: Is that normal?
+Doctor: Yes, it is normal.
+Patient: That's good.",imaging,assessment,ASSESSMENT: The patient has a two-sided shoulder x-ray.
+"Doctor: Any chest pain or shortness of breath?
+Patient: No chest pain, but I tend to have shortness of breath after any type of exertion.
+Doctor: How about bladder and bowel issues?
+Patient: No, that is fine.
+Doctor: Any excessive or unstoppable bleeding issues?
+Patient: No, I do not have any bleeding issues.
+Doctor: Oh.
+Patient: Yeah.",ros,pastmedicalhx,PASTMEDICALHX: Noncontributory.
+"Doctor: Are you married? 
+Patient: Yes, I have been married for ten years.  
+Doctor: Are you a smoker? Do you drink alcohol and if so, how many times a week do drink? 
+Patient: I do not smoke or drink.  
+Doctor: Any recreational drug use? 
+Patient: No.",genhx,fam/sochx,FAM/SOCHX: Married 10 years. Denied Tobacco/ETOH/illicit drug use.
+"Doctor: Ma'am, are you feeling okay?
+Patient: No not really, I feel dizzy.
+Doctor: Who brought you to emergency?
+Patient: My husband, he is trying to find parking outside. 
+Doctor: Okay.
+Doctor: Let me check your blood pressure and this will monitor your heartbeat. 
+Doctor: Well, your blood pressure looks quite high and so does your heartbeat. Do you have a history of hypertension or tachycardia, how old are you?
+Patient: I am sixty six.",cc,genhx,GENHX: The patient is a 61-year-old female who was brought in by her husband.  She has a history of hypertension and tachycardia.  Her blood pressure is quite high and her heartbeat is very high.
+"Doctor: Let me quickly examine your eyes nose and ears. 
+Patient: Sure.
+Doctor: Well, eyes look fine no lesion seen on lids, brows or corner of the eyes. Extra ocular movements are intact. Sclerae look great. Pupils look fine. Can you open your eyes wide for me I am going to check with this instrument. Everything looks fine here.
+Patient: Okay.
+Doctor: I don't see any swelling or glaucoma. No cataracts. Let me check your ears, Looks perfectly normal. Ears normal set and shape with normal hearing and tympanic membrane. No hearing problem or tinnitus or anything?
+Patient: Nope. 
+Doctor: No cough or cold or sinus congestion, right?
+Patient: No. 
+Doctor: Open your mouth for me, stick your tongue out, say ""ahhhhh"" for me. Everything looks normal here. 
+Doctor: Do you regularly visit your dentist?
+Patient: Yes, I recently got some dental work done.
+Doctor: Okay.",exam,diagnosis,"DIAGNOSIS: Eyes are normal.  No lesion on lids, brows or corner of the eyes.  Ears normal set and shape with normal hearing and tympanic membrane.  Sclerae intact.  Pupils look fine."
+"Doctor: How has she been since the last time we saw you both?  
+Guest_family: She has been in good spirits.  She has so much energy. She has had some constipation issues lately.  
+Doctor: How has her breathing been? Any changes?  
+Guest_family: No. Everything is the same.  
+Doctor: According to her chart she has not gained any weight since her last visit. I am sure it is due to her high energy level, but it is something we need to keep a close eye on.  
+Guest_family: What can I do to help her gain weight? 
+Doctor: I would like you to focus on making sure she is getting enough protein in her daily diet. Here is a handout on meal suggestions and tips for keeping meal times on a consistent schedule.  
+Guest_family: Thank you.",assessment,genhx,GENHX: The patient has been in good spirits since her last visit.  She has had a lot of energy and has had some constipation issues lately.  The patient also has not gained any weight.  Her chart has not been very good.  We need to keep a close eye on her.  There is a handout on meal suggestions and tips for keeping meal times consistent.
+"Doctor: Any uncomfortable feeling in the back of your throat, like excess mucous accumulation or something like that?
+Patient: Uh, no. I don't think so. 
+Doctor: Um, any soreness in your throat? 
+Patient: No.",ros,assessment,ASSESSMENT: No soreness in the back of the throat.
+"Doctor: Have you had your flu or Pneumonia vaccination this year? 
+Patient: I got my flu shot this year, but I did not get the one for Pneumonia.",immunizations,fam/sochx,FAM/SOCHX: Noncontributory.
